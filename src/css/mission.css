@@ -1,0 +1,29 @@
+.mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 40px;
+}
+.mission__title {
+  color: var(--cyan-1FFC2, #01FFC2);
+  font-family: Montserrat;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.mission__titlespan {
+  color: var(--Light-Background-Primary, #FCFCFD);
+  font-family: Montserrat;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}

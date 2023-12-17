@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--Light-Background-Contrast, #140132);
+}
+
+.main {
+    width: 1512px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1122px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    border: none
+}
+
+a {
+    text-decoration: none;
+}
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+// scss
+@import "header";
+@import "home";
+@import "mission";
+@import "footer";

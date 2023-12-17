@@ -1,0 +1,51 @@
+.footer {
+    width: 1512px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+    position: relative;
+
+    &__block {
+        position: absolute;
+        top: 266px;
+        left: 195px;
+    }
+    &__title {
+        color: #FCFCFD;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Montserrat;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        /* 146.154% */
+
+        &_span {
+            color: #01FFC2;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Montserrat;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 38px;
+        }
+
+
+    }
+
+    &__text {
+        color: var(--Light-Background-Primary, #FCFCFD);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        /* 183.333% */
+    }
+
+    &__img {
+        width: 1088px;
+        height: 822px;
+        flex-shrink: 0;
+    }
+}
